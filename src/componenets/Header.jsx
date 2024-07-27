@@ -2,7 +2,10 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <h1 className='header text-3xl my-3 block relative left-48 font-semibold text-white'>Reciepe Finder</h1>
+    <>
+    <h1 className='header text-4xl pt-5 block text-center font-semibold text-orange-400'>Recipe Finder</h1>
+    <div className="divider divider-warning"></div>
+    </>
   )
 }
 

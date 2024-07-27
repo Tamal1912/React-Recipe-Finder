@@ -6,6 +6,7 @@ import Welcome from './Welcome';
 import Searching from './Searching';
 import Error from './Error';
 
+
 const Querybox = () => {
 
   const [data,setData]=useState([]);
